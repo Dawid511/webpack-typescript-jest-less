@@ -16,4 +16,4 @@ RUN yarn install
 
 
 # Zbuduj aplikację w trybie produkcyjnym
-RUN yarn run build:prod
+RUN yarn build:prod
