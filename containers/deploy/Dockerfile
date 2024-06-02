@@ -2,7 +2,7 @@
 FROM my-typescript-app-build
 
 # Ekspozycja portu, na którym będzie działać aplikacja
-EXPOSE 8080
+EXPOSE 3000
 
 # Uruchom aplikację
 CMD ["yarn", "dev"]
