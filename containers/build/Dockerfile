@@ -9,15 +9,10 @@ RUN npm install yarn -y
 RUN git clone https://github.com/Dawid511/webpack-typescript-jest-less
 
 # Ustaw katalog roboczy w kontenerze
-RUN ls 
-RUN pwd
-
 WORKDIR /webpack-typescript-jest-less
 
 # Zainstaluj zależności
 RUN yarn install
 
-RUN ls 
-RUN pwd
 # Zbuduj aplikację w trybie produkcyjnym
 RUN yarn build:prod
