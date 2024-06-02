@@ -12,7 +12,7 @@ RUN git clone https://github.com/Dawid511/webpack-typescript-jest-less
 RUN ls 
 RUN pwd
 
-WORKDIR /app
+WORKDIR /webpack-typescript-jest-less
 
 # Zainstaluj zależności
 RUN yarn install
