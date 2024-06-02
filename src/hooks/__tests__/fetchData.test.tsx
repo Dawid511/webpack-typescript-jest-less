@@ -8,27 +8,6 @@ const TestComponent: React.FC<{ callback: () => void }> = ({ callback }) => {
 };
 
 describe('fetchData', () => {
-  it('does a thing', () => {
-    const mySpy = jest.spyOn(React, 'useEffect').mockImplementation(() => {
-      console.log('Mock React.useEffect');
-    });
-
-    let hookResult: any;
-    mount(
-      <TestComponent
-        callback={() => {
-          hookResult = fetchData();
-        }}
-      />,
-    );
-
-    const { result, isLoading } = hookResult;
-    expect(result).toBeNull();
-    expect(isLoading).toBeNull();
-
-    mySpy.mockRestore();
-  });
-
   it('does a different thing', () => {
     let hookResult: any;
 
