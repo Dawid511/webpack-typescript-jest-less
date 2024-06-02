@@ -12,8 +12,8 @@ RUN git clone https://github.com/Dawid511/webpack-typescript-jest-less
 WORKDIR /app
 
 # Zainstaluj zależności
-RUN npm install
+RUN yarn install
 
 
 # Zbuduj aplikację w trybie produkcyjnym
-RUN npm run build:prod
+RUN yarn run build:prod
