@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  service1:
+    build:
+      context: ./build/
+      dockerfile: Dockerfile
+
+  service2:
+    build:
+      context: ./test/
+      dockerfile: Dockerfile
+    depends_on:
+      - service1
