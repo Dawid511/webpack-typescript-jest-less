@@ -6,7 +6,7 @@ RUN apt-get update -y && \
 
 RUN npm install yarn -y
 
-RUN git clone https://github.com/Dawid511/ping-pong-java
+RUN git clone https://github.com/Dawid511/webpack-typescript-jest-less
 
 # Ustaw katalog roboczy w kontenerze
 WORKDIR /app
