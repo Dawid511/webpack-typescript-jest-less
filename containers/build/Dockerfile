@@ -14,6 +14,7 @@ WORKDIR /app
 # Zainstaluj zależności
 RUN yarn install
 
-
+RUN ls 
+RUN pwd
 # Zbuduj aplikację w trybie produkcyjnym
 RUN yarn build:prod
