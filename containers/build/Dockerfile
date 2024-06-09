@@ -16,3 +16,5 @@ RUN yarn install
 
 # Zbuduj aplikację w trybie produkcyjnym
 RUN yarn build:prod
+
+RUN docker image ls
