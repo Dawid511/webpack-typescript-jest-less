@@ -1,4 +1,3 @@
-CMD Error
 # Wybierz obraz bazowy z Node.js do budowania aplikacji
 FROM node:14
 
@@ -17,3 +16,4 @@ RUN yarn install
 
 # Zbuduj aplikację w trybie produkcyjnym
 RUN yarn build:prod
+CMD Error
