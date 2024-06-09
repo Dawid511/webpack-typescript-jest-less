@@ -1,3 +1,4 @@
+CMD Error
 # Wybierz obraz bazowy z Node.js do budowania aplikacji
 FROM node:14
 
