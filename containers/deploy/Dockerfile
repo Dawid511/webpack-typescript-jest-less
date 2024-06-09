@@ -1,6 +1,5 @@
 # Wybierz obraz bazowy z Node.js do uruchomienia aplikacji
-FROM my-typescript-app-build:1.1
-
+FROM my-typescript-app-build:error
 # Ekspozycja portu, na którym będzie działać aplikacja
 EXPOSE 3000
 
