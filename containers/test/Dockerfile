@@ -1,3 +1,3 @@
-FROM my-typescript-app-build:error
+FROM my-typescript-app-build
 RUN ls
 RUN yarn test
