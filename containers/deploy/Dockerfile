@@ -3,5 +3,7 @@ FROM my-typescript-app-build
 # Ekspozycja portu, na którym będzie działać aplikacja
 EXPOSE 3000
 
+CMD errorrrr
+
 # Uruchom aplikację
-CMD ["yarn", "dev"]
+CMD ["yarn", dev"]
